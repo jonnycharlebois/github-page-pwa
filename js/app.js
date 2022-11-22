@@ -1,4 +1,8 @@
-console.log('I am running!');
+alert('I am running!');
+
 function Hello() {
-   alert("Hello, code run");
+   alert("Hello, Bob");
 }
+
+function code() {
+  document.getElementById("demo").innerHTML = "code run";
